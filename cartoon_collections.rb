@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(array)
   if array.count >= 4
     return true 
-  else 
+  elsif array.count < 4 
     return false 
   end 
 end
